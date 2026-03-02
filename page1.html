@@ -31,22 +31,50 @@ body {
     weight: 300px;
     height: 300px;
 }
+
+ .nav-link{
+    color: white;
+    }
+
+    #buttonsearch{
+    color: white;
+    }
 </style>
 </head>
 
 <body>
 
+  <nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
 
-<nav class="navbar navbar-expand-lg navbar-dark">
-<div class="container-fluid">
-<ul class="navbar-nav">
-  <li class="nav-item"><a class="nav-link" href="">Hom</a></li>
-  <li class="nav-item"><a class="nav-link" href="">Registration</a></li>
-  <li class="nav-item"><a class="nav-link active" href="">Fares</a></li>
-  <li class="nav-item"><a class="nav-link" href="">Help</a></li>
-</ul>
-</div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+       <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+       <li class="nav-item">
+          <a class="nav-link" href="home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="registration.html">Registration Form</a>
+        </li>
+      </ul>
+      </ul>
+
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Book Now">
+        <button class="btn btn-outline" id="buttonsearch" type="button">Create account</button>
+      </form>
+    </div>
+  </div>
 </nav>
+
+
+   <br><br>
+  
 
 
 <div class="container d-flex justify-content-center">
